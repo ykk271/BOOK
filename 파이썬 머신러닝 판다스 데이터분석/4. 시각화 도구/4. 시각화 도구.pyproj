@@ -1,0 +1,151 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c4bf56c3-5df7-4ac3-bf09-0ec57dafdc97</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>4-27 히스토그램 커널밀도함수.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>4. 시각화 도구</Name>
+    <RootNamespace>시각화 도구</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="4-01. 선 그래프.py" />
+    <Compile Include="4-02. 차트 제목, 축 이름 추가.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-03. 한글 폰트 오류 해결.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-04. 그래프 꾸미기.py" />
+    <Compile Include="4-05. 스타일 서식 지정 등.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-06. Matplotlib 스타일 리스트 출력.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-07. Matplotlib 스타일 리스트 출력.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-08 Matplotlib 소개.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-09. axe 객체 그래프 꾸미기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-10. 같은 화면에 그래프 추가.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-11. 화면 4분할 그래프.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-12. matplotlib 스타일 리스트 출력.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-13. 면적그래프.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-14. 면적 그래프%28stacked=True%29 그리기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-15. axes 객체 속성 변경하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-16. 세로형 막대 그래프.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-17. 가로형 막대 그래프.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-18. 2축 그래프 그리기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-19. 히스토그램.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-20. 산점도.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-21. 버블 차트.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-22. 그림 파일로 저장.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-23 파이 차트.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-24 박스 플롯.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-25. titanic 데이터셋.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-26. 회귀선이 있는 산점도.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-27 히스토그램 커널밀도함수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-28. 히트맵.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-29. 범주형 데이터의 산점도.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-30. 막대 그래프.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-31. 빈도 그래프.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-32. 박스플롯 바이올린 그래프.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-33. 조인트 그래프.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-34. 조건에 맞게 화면 분할.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-35. 이변수 데이터 분포.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-36. 지도 만들기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-37. 지도 스타일 적용.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-38. 지도에 마커 표시하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-39. 지도에 원형 마커 표시.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4-40. 지도 영역에 단계구분도 표시하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

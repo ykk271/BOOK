@@ -1,0 +1,78 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>99e1ca02-8b47-42e7-8bb4-6cfb87904ade</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>6-01. 시리즈의 원소에 apply() 적용.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>6. 데이터프레임의 다양한 응용</Name>
+    <RootNamespace>6. 데이터프레임의 다양한 응용</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="6-01. 시리즈의 원소에 apply%28%29 적용.py" />
+    <Compile Include="6-02. 데이터프레임 원소에 applymap%28%29 적용.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6-03. 데이터프레임에 apply%28axis=0%29 적용.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6-04. 데이터프레임에 apply%28axis=0%29 적용.py" />
+    <Compile Include="6-05. 데이터프레임에 apply%28%29 적용.py" />
+    <Compile Include="6-06. 데이터프레임에 pipe%28%29 적용.py" />
+    <Compile Include="6-07. 열 순서 바꾸기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6-08. 열 분리하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6-09. 불린 인덱싱.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6-10. isin%28%29 필터링.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6-11. 데이터프레임 연결.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6-12. 데이터프레임 합치기%28merge%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6-13. 데이터프레임 합치기%28join%29.py" />
+    <Compile Include="6-14. 그룹 연산 - 분할.py" />
+    <Compile Include="6-15. 데이터 집계.py" />
+    <Compile Include="6-16. 그룹 연산 데이터 변환.py" />
+    <Compile Include="6-17. 그룹 객체 필터링.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6-18. 그룹 객체에 함수 매핑.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6-19. 멀티 인덱스.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6-20. 피벗테이블.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

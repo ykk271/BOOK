@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "2. 데이터 입출력", "2. 데이터 입출력\2. 데이터 입출력.pyproj", "{0DBA7170-B669-44B5-93A4-5A71BC586017}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "1. 판다스 입문", "1. 판다스 입문\1. 판다스 입문.pyproj", "{33618C3E-B5BB-41A2-8240-287F56652A51}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "3. 데이터 살펴보기", "3. 데이터 살펴보기\3. 데이터 살펴보기.pyproj", "{4F84FB4A-52CD-4B96-A0C0-16D79BBD63B3}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "4. 시각화 도구", "4. 시각화 도구\4. 시각화 도구.pyproj", "{C4BF56C3-5DF7-4AC3-BF09-0EC57DAFDC97}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "5. 데이터 사전 처리", "5. 데이터 사전 처리\5. 데이터 사전 처리.pyproj", "{D91391F2-08DD-4658-A545-53A0BDF89C48}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "6. 데이터프레임의 다양한 응용", "6. 데이터프레임의 다양한 응용\6. 데이터프레임의 다양한 응용.pyproj", "{99E1CA02-8B47-42E7-8BB4-6CFB87904ADE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "7. 머신러닝 데이터 분석", "7. 머신러닝 데이터 분석\7. 머신러닝 데이터 분석.pyproj", "{1AF20A06-BCC3-4219-BF9A-FB916EBB27DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DBA7170-B669-44B5-93A4-5A71BC586017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBA7170-B669-44B5-93A4-5A71BC586017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33618C3E-B5BB-41A2-8240-287F56652A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33618C3E-B5BB-41A2-8240-287F56652A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F84FB4A-52CD-4B96-A0C0-16D79BBD63B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F84FB4A-52CD-4B96-A0C0-16D79BBD63B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BF56C3-5DF7-4AC3-BF09-0EC57DAFDC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BF56C3-5DF7-4AC3-BF09-0EC57DAFDC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91391F2-08DD-4658-A545-53A0BDF89C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91391F2-08DD-4658-A545-53A0BDF89C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E1CA02-8B47-42E7-8BB4-6CFB87904ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E1CA02-8B47-42E7-8BB4-6CFB87904ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF20A06-BCC3-4219-BF9A-FB916EBB27DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF20A06-BCC3-4219-BF9A-FB916EBB27DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4959FC4D-2067-47FE-8369-B464B31D2BE8}
+	EndGlobalSection
+EndGlobal

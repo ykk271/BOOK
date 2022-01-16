@@ -1,0 +1,111 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>33618c3e-b5bb-41a2-8240-287f56652a51</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>1-21 시리즈를 숫자로 나누기.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>1. 판다스 입문</Name>
+    <RootNamespace>DataAnalytics</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="1-01 딕셔너리 시리즈 변환.py" />
+    <Compile Include="1-10 열 선택.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-02 시리즈 인덱스.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-03 시리즈 원소 선택.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-04 딕셔너리 데이터프레임 변환py.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-05 행 인덱스 열 이름 설정.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-06 행 인덱스 열 이름 변경.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-07 행 삭제.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-08 열 삭제.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-09 행 선택.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-11 원소 선택.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-12 열추가.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-13 행추가.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-14 원소 값 변경.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-15 행, 열 바꾸기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-16 인덱스 활용py.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-17 새로운 배열로 행 인덱스 재지정.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-18 정수형 위치 인덱스로 초기화.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-19 데이터프레임 정렬.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-20 열 기준 정렬.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-21 시리즈를 숫자로 나누기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-22 시리즈 사칙연산.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-23 NaN 값이 있는 시리즈 연산.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-24 연산 메소드 사용.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-25 데이터프레임에 숫자 더하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1-26 데이터프레임끼리 더하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

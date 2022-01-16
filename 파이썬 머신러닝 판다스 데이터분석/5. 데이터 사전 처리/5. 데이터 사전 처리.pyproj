@@ -1,0 +1,91 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>d91391f2-08dd-4658-a545-53a0bdf89c48</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>5-01. 누락 데이터 확인.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>5. 데이터 사전 처리</Name>
+    <RootNamespace>5. 데이터 사전 처리</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="5-01. 누락 데이터 확인.py" />
+    <Compile Include="5-02. 누락 데이터 제거.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-03. 평균으로 누락 데이터 바꾸기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-04. 가장 나타나는 값으로 바꾸기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-05. 이웃하고 있는 값으로 바꾸기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-06. 중복 데이터 확인.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-08 중복 데이터 제거.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-08. 단위 환산.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-09 자료형 변환.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-10. 데이터 구간 분할.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-11. 더미 변수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-13. 정규화 방법1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-14. 정규화 방법2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-15. 문자열을 Timestamp로 변환.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-16. Timestamp를 Period로 변환.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-17. Timestamp 배열 만들기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-18. Period 배열 만들기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5-19. 날짜 데이터 분리.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="5-12. 원핫인코딩.py">
+      <SubType>Code</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
