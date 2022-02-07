@@ -1,16 +1,10 @@
-import os
-import tensorflow as tf
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-hallo = tf.constant('why?' )
-
-print(hallo)
-
-from keras.datasets import imdb
+from tensorflow.keras.datasets import imdb
 
 (train_data, train_labels), (test_data, test_labels) = imdb.load_data(num_words=10000)
 
 # 데이터 준비
 import numpy as np
+
 def vectorize_sequences(sequences, dimension=10000):
   results = np.zeros((len(sequences), dimension))
   for i, sequence in enumerate(sequences):

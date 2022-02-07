@@ -48,4 +48,47 @@ history = model.fit(pad_x_train, y_train, batch_size=32, epochs=30,
 
 model.evaluate(pad_x_test, y_test)
 
+# Simple RNN
+from tensorflow.keras.layers import SimpleRNN, Flatten, Dense
+from tensorflow.keras.models import Sequential
+
+model2 = Sequential()
+model2.add(Embedding(input_dim = num_words, output_dim=32, input_length=max_len))
+model2.add(SimpleRNN(32, return_sequences = True, dropout = 0.15,
+                     recurrent_dropout=0.15))
+model2.add(SimpleRNN(32))
+model2.add(Dense(1, activation='sigmoid'))
+
+model2.compile(optimizer='adam',
+              loss = 'binary_crossentropy',
+              metrics = ['acc'])
+
+model2.summary()
+
+history2 = model2.fit(pad_x_train, y_train, batch_size=32, epochs=30,
+                    validation_split=0.2)
+
+import matplotlib.pyplot as plt
+
+his_dict = history.history
+acc = his_dict['acc']
+val_acc = his_dict['val_acc']
+
+his_dict2 = history2.history
+acc2 = his_dict2['acc']
+val_acc2 = his_dict2['val_acc']
+
+epochs = range(1, len(acc) + 1)
+
+fig = plt.figure(figsize=(10, 5))
+ax1= fig.add_subplot(1,2,1)
+ax1.plot(epochs, acc, color='blue', label='train_acc')
+ax1.plot(epochs, val_acc, color='red', label='val_acc')
+plt.legend()
+
+ax2 = fig.add_subplot(1, 2, 2)
+ax2.plot(epochs, acc2, color='blue', label='train_acc')
+ax2.plot(epochs, val_acc2, color='red', label='val_acc')
+plt.legend()
+plt.show()
 
