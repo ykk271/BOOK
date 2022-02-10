@@ -5,6 +5,14 @@ from tensorflow.keras.datasets import imdb
 # 데이터 준비
 import numpy as np
 
+train_data[0]
+max([max(sequence) for sequence in train_data])
+
+word_index = imdb.get_word_index()
+reverse_word_index = dict([value, key] for (key, value) in word_index.items())
+decoded_review = ' '.join([reverse_word_index.get(i - 3, '?') for i in train_data[0]])
+decoded_review
+
 def vectorize_sequences(sequences, dimension=10000):
   results = np.zeros((len(sequences), dimension))
   for i, sequence in enumerate(sequences):
