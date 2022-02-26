@@ -28,6 +28,8 @@ def load_housing_data(housing_path=HOUSING_PATH):
 
 housing = load_housing_data()
 
+housing.keys()
+housing.dtypes
 # 데이터 구조 훑어 보기
 pd.set_option('display.max_columns', 100) # 더 많은 열 보기
 housing.head()
