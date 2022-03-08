@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09ca0d0d-379a-4b74-903b-8d09f3494c52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3장. IMPORT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/머신러닝 탐구생활.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/머신러닝 탐구생활.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Santander_0_Score.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Santander_1_EDA.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_2. OUTLIAR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3장. IMPORT.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_1. IMPORT.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -31,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="3장. IMPORT" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="3_1. IMPORT" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="머신러닝 탐구생활" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -43,7 +47,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\GIT\BOOK\머신러닝 탐구생활\3장. IMPORT.py" />
+      <option name="SCRIPT_NAME" value="D:\GIT\BOOK\머신러닝 탐구생활\3_1. IMPORT.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,16 +78,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/3장. IMPORT.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
