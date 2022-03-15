@@ -2,9 +2,13 @@
 import IPython.display as ipd
 from scipy.io import wavfile
 
+import warnings
+
+warnings.filterwarnings('ignore')
+
 # 파일 경로 지정
-data_dir = 'D:/KAGGLE DATA/tensorflow-speech-recognition-challenge/'
-train_audio_path = data_dir + 'train/audio/'
+data_dir = 'C:/KAGGLE_DATA/tensorflow-speech-recognition-challenge/'
+train_audio_path = data_dir + 'train/train/audio/'
 
 filename = 'yes/00f0204f_nohash_0.wav'
 
@@ -102,22 +106,5 @@ plt.xlabel('Time')
 plt.colorbar()
 plt.tight_layout()
 
-# 이상값 찾기
-# 푸리에변환 - 주성분 분석
-import numpy as np
-from scipy.fftpack import fft
-
-def custom_fft(y, fs):
-    T = 1.0 / fs
-    N = y.shape[0]
-    yf = fft(y)
-    xf = np.linspace(0.0, 1.0/(2.0*T), N//2)
-    vals = 2.0/N * np.abs(yf[0:N//2])
-    return xf, vals
-
-
-
-
-
-
+plt.show()
 
