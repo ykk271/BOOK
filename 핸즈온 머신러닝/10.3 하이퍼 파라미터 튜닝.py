@@ -17,4 +17,4 @@ model = keras.models.Sequential()
 model.add(keras.layers.Dense(30, activation='relu', input_shape=X_train.shape[1:]))
 model.add(keras.layers.Dense(1))
 
-def
+# def

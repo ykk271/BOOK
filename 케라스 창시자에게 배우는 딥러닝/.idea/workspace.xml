@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="547b41e8-5e2b-40c5-9db9-5fff07609523" name="Changes" comment="" />
+    <list default="true" id="547b41e8-5e2b-40c5-9db9-5fff07609523" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../핸즈온 머신러닝/3.1 분류.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../핸즈온 머신러닝/10.3 하이퍼 파라미터 튜닝.py" beforeDir="false" afterPath="$PROJECT_DIR$/../핸즈온 머신러닝/10.3 하이퍼 파라미터 튜닝.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +23,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../핸즈온 머신러닝" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../PYTHON/ML" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
