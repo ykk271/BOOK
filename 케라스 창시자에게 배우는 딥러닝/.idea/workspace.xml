@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547b41e8-5e2b-40c5-9db9-5fff07609523" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../핸즈온 머신러닝/3.1 분류.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../핸즈온 머신러닝/10.3 하이퍼 파라미터 튜닝.py" beforeDir="false" afterPath="$PROJECT_DIR$/../핸즈온 머신러닝/10.3 하이퍼 파라미터 튜닝.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
